@@ -1,0 +1,13 @@
+
+x=int(input("Enter first number="))
+y=int(input("Enter second number="))
+
+print("Before the swapping n={0}".format(x))
+print("Before the swapping m={0}".format(y))
+
+temp=x
+x=y
+y=temp
+
+print("After swapping n={0}".format(x))
+print("After swapping m={0}".format(y))

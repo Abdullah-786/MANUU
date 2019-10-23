@@ -1,0 +1,12 @@
+
+m=int(input("Enter the number of terms to print prime number="))
+
+print("The prime number are here:")
+for val in range(2,m+1): 
+        
+   if val > 1: 
+       for n in range(2, val): 
+           if (val % m) == 0: 
+               break
+       else: 
+           print(val,end=" ")

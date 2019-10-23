@@ -1,0 +1,14 @@
+
+y=int(input("Enter any year what you want="))
+
+if y%100:
+      if y%400:
+          print("{0} is a leap year".format(y))
+      else:
+          print("{0} is not a leap year".format(y))
+
+else:
+      if a%4:
+          print("{0} is a leap year".format(y))
+      else:
+          print("{0} is not a leap year".format(y))
